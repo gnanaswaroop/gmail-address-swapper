@@ -43,8 +43,9 @@ function addSwapButton() {
       
       var firstTRsTDInnerHTML = firstTRsTD.innerHTML;
 
-      firstTRsTDInnerHTML = "<div style='text-align:right'>" + firstTRsTDInnerHTML + "</div";
+      firstTRsTDInnerHTML = "<div style='text-align:right'>" + firstTRsTDInnerHTML + "</div>";
       // Inject the button dynamically
+
       firstTRsTD.innerHTML = firstTRsTDInnerHTML + '<div id="GmailAddressSwapperDiv" style="float:right; width: 18px; height: 18px; overflow: hidden; position: relative;">'
                 + '<img style="position: absolute; left: -18px; top: 0px; -moz-user-select: none; border: 0px none; padding: 0px; '
                 + 'margin: 0px;" src="http://maps.gstatic.com/intl/en_ALL/mapfiles/dir/dl2.png"></div>';
